@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Contato";
+}
+<body>
+    <h2>@ViewBag.Title</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <address>
+                    Rua Princesa Isabel<br />
+                    Centro, Joinville - SC<br />
+                    <abbr title="Telefone">Telefone:</abbr>
+                    3027-2200
+                </address>
+
+                <address>
+                    <strong>Support:</strong>   <a href="mailto:Support@choourse.com">Support@choourse.com</a><br />
+                    <strong>Marketing:</strong> <a href="mailto:Marketing@choourse.com">Marketing@choourse.com</a>
+                </address>
+            </div>
+
+            <div class="col-md-6 map" id="map"></div>
+
+        </div>
+    </div>
+
+    <script>
+        function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(-26.2996478, -48.8467383),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-FkijCgcn2muP5seaXotyJwjLD803pkY&callback=myMap"></script>
+</body>

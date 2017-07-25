@@ -1,0 +1,371 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#adm">
+                        <img src="https://goo.gl/NfpUMx" alt="Administração">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#dev">
+                        <img src="https://goo.gl/2C1ac9" alt="Desenvolvimento">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#enf">
+                        <img src="https://goo.gl/sPBzTs" alt="Enfermagem">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#far">
+                        <img src="https://goo.gl/kZuENB" alt="Farmácia">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#gas">
+                        <img src="https://goo.gl/wTe8cs" alt="Gastronomia">
+                    </a>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 bd-color">
+                Cursos
+            </div>
+        </div>
+
+        <section id="adm">
+            <div class="row bd-conteudo">
+                <div class="row">
+                    <div class="col-md-12 bd-nome">
+                        <img class="bd-logo" src="https://goo.gl/eCayPt" alt="Logo">
+                        Administração
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-texto">
+                        O curso de Bacharelado em Administração tem como propósito formar profissionais do setor administrativo, os quais tenham criatividade e um senso crítico social, além de possuírem uma visão ética e um espírito empreendedor. O administrador é responsável por coordenar e planejar as estratégias do dia a dia de uma organização. Ele tem lugar em praticamente todos os departamentos de uma organização pública, privada ou sem fins lucrativos. O profissional formado em administração coordena as relações existentes entre a organização e seus funcionários, participando dos processos de admissão, seleção e demissão dos mesmos. O administrador pode também se envolver com o marketing e a publicidade da empresa, atuando na promoção de vendas de serviços ou produtos. Seja qual for à área de atuação, esse bacharel trabalha fundamentalmente com números e planilhas e precisa se manter atualizado com a economia mundial e nacional, as tendências de consumo e a legislação na área de atuação da empresa.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-info">
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-time"></span> Carga Horária: 3.114h</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-calendar"></span> Data Início: 01/01/17</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-cloud"></span> Período: Noturno</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-bookmark"></span> Dias da semana: Segunda a Sexta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 center" align="center">
+                        <iframe width="50%" height="315" align="middle" src="https://www.youtube.com/embed/58N5yty0gpI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button data-toggle="modal" data-target="#inscrever" type="button" onclick="setaId('Administração')" class="btn btn-success glyphicon-pencil">&nbsp; Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <h3></h3>
+        </div>
+
+        <section id="dev">
+            <div class="row bd-conteudo">
+                <div class="row">
+                    <div class="col-md-12 bd-nome">
+                        <img class="bd-logo" src="https://goo.gl/ZNDj8s" alt="Logo">
+                        Desenvolvimento de Software
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-texto">
+                        O acadêmico de Desenvolvimento de Software aprenderá a definir processos e ferramentas que serão utilizados em fábricas de softwares, além de conhecer novas formas de criar aplicativos, utilizando arquiteturas na nuvem, garantindo sua funcionalidade para atender ao usuário final. Tudo isso com a orientação de professores capacitados modernos laboratórios que permitirão vivenciar a realidade da profissão.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-info">
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-time"></span> Carga Horária: 3.500h</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-calendar"></span> Data Início: 01/01/17</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-cloud"></span> Período: Noturno</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-bookmark"></span> Dias da semana: Segunda a Sexta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 center" align="center">
+                        <iframe width="50%" height="315" align="middle" src="https://www.youtube.com/embed/YJdqPq7vZfE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button data-toggle="modal" data-target="#inscrever" type="button" onclick="setaId('Desenvolvimento de Software')" class="btn btn-success glyphicon-pencil">&nbsp; Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="row">
+            <h3></h3>
+        </div>
+
+        <section id="enf">
+            <div class="row bd-conteudo">
+                <div class="row">
+                    <div class="col-md-12 bd-nome">
+                        <img class="bd-logo" src="https://goo.gl/g38NEK" alt="Logo">
+                        Enfermagem
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-texto">
+                        O acadêmico de Enfermagem será habilitado para atuar na coordenação de processos de saúde, gerenciando o cuidado de enfermagem com responsabilidade social e promovendo a saúde integral do ser humano. Contará com uma formação generalista, humanista, crítica e reflexiva no exercício da profissão. Além disso, terá à disposição laboratórios de enfermagem, ambulatório universitário, bem como acesso a hospitais e unidades básicas de saúde por meio de convênios firmados.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-info">
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-time"></span> Carga Horária: 3.200h</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-calendar"></span> Data Início: 01/01/17</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-cloud"></span> Período: Diurno</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-bookmark"></span> Dias da semana: Segunda a Sexta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 center" align="center">
+                        <iframe width="50%" height="315" align="middle" src="https://www.youtube.com/embed/lfatleGxmNA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button data-toggle="modal" data-target="#inscrever" type="button" onclick="setaId('Enfermagem')" class="btn btn-success glyphicon-pencil">&nbsp; Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <h3></h3>
+        </div>
+
+        <section id="far">
+            <div class="row bd-conteudo">
+                <div class="row">
+                    <div class="col-md-12 bd-nome">
+                        <img class="bd-logo" src="https://goo.gl/yFkrLh" alt="Logo">
+                        Farmácia
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-texto">
+                        O acadêmico de Farmácia será qualificado para desenvolver e produzir medicamentos, além de realizar análises de laboratório na área clínica, toxicológica e ambiental. Também vivenciará situações reais da profissão nos modernos laboratórios de bioquímica e imunologia clínica, microbiologia e biologia molecular da Universidade, além de projetos que o aproximam da comunidade, como a Farmácia-Escola.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-info">
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-time"></span> Carga Horária: 3.200h</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-calendar"></span> Data Início: 01/01/17</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-cloud"></span> Período: Matutino</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-bookmark"></span> Dias da semana: Segunda a Sexta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 center" align="center">
+                        <iframe width="50%" height="315" align="middle" src="https://www.youtube.com/embed/nob6DXhfwlM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button data-toggle="modal" data-target="#inscrever" type="button" onclick="setaId('Farmácia')" class="btn btn-success glyphicon-pencil">&nbsp; Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <h3></h3>
+        </div>
+
+        <section id="gas">
+            <div class="row bd-conteudo">
+                <div class="row">
+                    <div class="col-md-12 bd-nome">
+                        <img class="bd-logo" src="https://goo.gl/PGu8Hk" alt="Logo">
+                        Gastronomia
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-texto">
+                        O acadêmico do curso superior de tecnologia em Gastronomia aprenderá a cozinhar e viverá o dia a dia da profissão por meio de disciplinas teóricas e práticas. Também terá acesso a uma estrutura com cozinha pedagógica, laboratório de panificação e confeitaria, laboratório de bebidas, microbiologia, salas de informática e auditórios. Ao longo do curso, o estudante participará de diversas atividades práticas.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bd-info">
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-time"></span> Carga Horária: 3.200h</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-calendar"></span> Data Início: 01/01/17</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-cloud"></span> Período: Noturno</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><span class="glyphicon glyphicon-bookmark"></span> Dias da semana: Segunda a Sexta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 center" align="center">
+                        <iframe width="50%" height="315" align="middle" src="https://www.youtube.com/embed/8jg2m_zo9ck" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button data-toggle="modal" data-target="#inscrever" type="button" onclick="setaId('Gastronomia')" class="btn btn-success glyphicon-pencil">&nbsp; Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="inscrever" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Inscreva-se</h2>
+                    </div>
+                    <div class="modal-body" style="width:100%; position:relative;">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="usr">Nome:</label>
+                                    <input placeholder="Insira o nome" type="text" class="form-control" id="f_name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="usr">E-mail:</label>
+                                    <input placeholder="Insira o E-mail" type="text" class="form-control" id="f_email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="usr">Telefone:</label>
+                                    <input placeholder="Insira o telefone" type="text" class="form-control" id="f_telefone">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" onclick="verificarCampos()" class="btn btn-success mr-auto">Salvar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(document).ready(function () {
+    });
+
+    var curso = "";
+    function setaId(nome) {
+        curso = nome;
+    }
+
+    function salvar() {
+        var nome = $('#f_name').val();
+        alert("Parabéns " + nome + "!!\n Você acaba de se inscrever para o curso de " + curso + ".");
+        location.reload();
+    }
+
+    function verificarCampos() {
+        var nome = $('#f_name').val();
+        var email = $('#f_email').val();
+
+        if (nome == null || nome == "" || email == null || email == "") {
+            alert("Os campos Nome e E-mail são obrigatórios.");
+        } else {
+            salvar();
+        }
+    }
+</script>
